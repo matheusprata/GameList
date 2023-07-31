@@ -9,14 +9,14 @@ public class GameMinDTO {
     private String platforms;
     private String shortDescription;
 
-    public GameMinDTO(){
-    }
     public GameMinDTO(Game entity) {
         id = entity.getId();
         title = entity.getTitle();
         year = entity.getYear();
         platforms = entity.getPlatforms();
         shortDescription = entity.getShortDescription();
+    }
+    public GameMinDTO(){
     }
     public Long getId() {
         return id;
