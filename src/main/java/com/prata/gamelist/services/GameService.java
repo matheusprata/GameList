@@ -3,6 +3,7 @@ package com.prata.gamelist.services;
 import com.prata.gamelist.dto.GameMinDTO;
 import com.prata.gamelist.entities.Game;
 import com.prata.gamelist.entities.GameDTO;
+import com.prata.gamelist.projections.GameMinProjection;
 import com.prata.gamelist.repositories.GameRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -24,6 +25,12 @@ public class GameService {
     @Transactional(readOnly = true)
     public List<GameMinDTO> findAll() {
         List<Game> result = gameRepository.findAll();
+        return result.stream().map(GameMinDTO::new).toList();
+    }
+
+    @Transactional(readOnly = true)
+    public List<GameMinDTO> findByList(Long listId) {
+        List<GameMinProjection> result = gameRepository.searchByList(listId);
         return result.stream().map(GameMinDTO::new).toList();
     }
 }
