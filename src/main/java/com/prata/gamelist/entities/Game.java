@@ -10,7 +10,6 @@ public class Game {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String title;
-
     @Column(name = "game_year")
     private Integer year;
     private String genre;
@@ -23,8 +22,8 @@ public class Game {
     private String longDescription;
 
     public Game() {
-
     }
+
     public Game(Long id, String title, Integer year, String genre, String platforms,
                 Double score, String imgUrl, String shortDescription, String longDescription) {
         this.id = id;
@@ -37,6 +36,7 @@ public class Game {
         this.shortDescription = shortDescription;
         this.longDescription = longDescription;
     }
+
     public Long getId() {
         return id;
     }
@@ -96,12 +96,9 @@ public class Game {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Game game)) return false;
-
         return getId().equals(game.getId());
     }
 
     @Override
-    public int hashCode() {
-        return getId().hashCode();
-    }
+    public int hashCode() {return getId().hashCode();}
 }
