@@ -1,7 +1,7 @@
 package com.prata.gamelist.services;
 
 import com.prata.gamelist.entities.GameList;
-import com.prata.gamelist.entities.GameListDTO;
+import com.prata.gamelist.dto.GameListDTO;
 import com.prata.gamelist.projections.GameMinProjection;
 import com.prata.gamelist.repositories.GameListRepository;
 import com.prata.gamelist.repositories.GameRepository;
