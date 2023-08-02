@@ -1,4 +1,6 @@
-package com.prata.gamelist.entities;
+package com.prata.gamelist.dto;
+
+import com.prata.gamelist.entities.GameList;
 
 public class GameListDTO {
 

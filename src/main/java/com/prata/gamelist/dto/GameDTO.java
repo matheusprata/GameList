@@ -1,5 +1,6 @@
-package com.prata.gamelist.entities;
+package com.prata.gamelist.dto;
 
+import com.prata.gamelist.entities.Game;
 import org.springframework.beans.BeanUtils;
 
 public class GameDTO {

@@ -1,7 +1,7 @@
 package com.prata.gamelist.controllers;
 
 import com.prata.gamelist.dto.GameMinDTO;
-import com.prata.gamelist.entities.GameDTO;
+import com.prata.gamelist.dto.GameDTO;
 import com.prata.gamelist.services.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
