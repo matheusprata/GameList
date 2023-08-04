@@ -17,6 +17,27 @@
 ```
 git clone https://github.com/matheusprata/GameList.git
 ```
+### Cloud Railway
+```
+https://gamelist-production-6531.up.railway.app
+```
+## Postman acessando cloud e realizando consulta ao banco e alteração de posição do game
+
+***Lista dos jogos cadastrados no sistema***
+![get lista todos os games](https://github.com/matheusprata/GameList/assets/103780607/fd71f461-7fc6-4205-8953-faef16e06d0b)
+![get lista todos os games 2](https://github.com/matheusprata/GameList/assets/103780607/028a7150-bf60-4327-b8d3-d33bfdc226a3)
+
+***Lista de categorias cadastradas no sistema***
+![lista de categoria](https://github.com/matheusprata/GameList/assets/103780607/7f162a96-c427-412e-b479-15add5ae8f26)
+
+***Lista dos games organizados por categoria no sistema***
+![Captura de tela 2023-08-04 124942](https://github.com/matheusprata/GameList/assets/103780607/58b57f37-b50b-41d2-b30d-cf0fec93adb4)
+![Captura de tela 2023-08-04 124544](https://github.com/matheusprata/GameList/assets/103780607/a84b744c-40a8-462b-aa19-31795a0b1741)
+
+***Alteração da posição na lista dos games, ordenando o game na posição 3 para a posição 1. Essas posições iniciam em 0 até 4, separando a categoria em 5 posições***
+![alteração da posição da do game no ranking](https://github.com/matheusprata/GameList/assets/103780607/f59f7040-34b0-4ab8-915c-c9967dc00ca2)
+![get list categoria 1](https://github.com/matheusprata/GameList/assets/103780607/df52a513-382a-41ff-bb1c-bee3f5d01efb)
+
 ## Modelo de domínio GameList
 ![gamelist-model](https://github.com/matheusprata/GameList/assets/103780607/575d8ef8-c8c3-47ac-a361-b144a4cff8ac)
 
