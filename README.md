@@ -24,19 +24,19 @@ https://gamelist-production-6531.up.railway.app
 ## Postman acessando cloud e realizando consulta ao banco e alteração de posição do game
 
 ***Lista dos jogos cadastrados no sistema***
-![get lista todos os games](https://github.com/matheusprata/GameList/assets/103780607/fd71f461-7fc6-4205-8953-faef16e06d0b)
-![get lista todos os games 2](https://github.com/matheusprata/GameList/assets/103780607/028a7150-bf60-4327-b8d3-d33bfdc226a3)
+![get all gameList (1)](https://github.com/matheusprata/GameList/assets/103780607/d8a1e602-cceb-4870-97f6-9bfcb152c4dd)
+![get all gameList (2)](https://github.com/matheusprata/GameList/assets/103780607/d80deb0b-d574-4f3e-83e5-70cfbbcc4360)
 
 ***Lista de categorias cadastradas no sistema***
-![lista de categoria](https://github.com/matheusprata/GameList/assets/103780607/7f162a96-c427-412e-b479-15add5ae8f26)
+![Lista de categoria dos games](https://github.com/matheusprata/GameList/assets/103780607/0a0b89f3-fc6a-4207-9fe8-a277c6f36768)
 
 ***Lista dos games organizados por categoria no sistema***
-![Captura de tela 2023-08-04 124942](https://github.com/matheusprata/GameList/assets/103780607/58b57f37-b50b-41d2-b30d-cf0fec93adb4)
-![Captura de tela 2023-08-04 124544](https://github.com/matheusprata/GameList/assets/103780607/a84b744c-40a8-462b-aa19-31795a0b1741)
+![get gamelist por categoria (2)](https://github.com/matheusprata/GameList/assets/103780607/6ea794f2-dbb0-4bbb-8769-af82dfb70ba3)
+![get gamelist por categoria (1)](https://github.com/matheusprata/GameList/assets/103780607/f4d6fce9-46c8-4613-aace-a21cc2536469)
 
 ***Alteração da posição na lista dos games, ordenando o game na posição 3 para a posição 1. Essas posições iniciam em 0 até 4, separando a categoria em 5 posições***
-![alteração da posição da do game no ranking](https://github.com/matheusprata/GameList/assets/103780607/f59f7040-34b0-4ab8-915c-c9967dc00ca2)
-![get list categoria 1](https://github.com/matheusprata/GameList/assets/103780607/df52a513-382a-41ff-bb1c-bee3f5d01efb)
+![post para alterar game 3 para posicao 1](https://github.com/matheusprata/GameList/assets/103780607/84852cec-a3bb-4f34-ae90-39ee6e6f5df4)
+![get gamelist por categoria apos post](https://github.com/matheusprata/GameList/assets/103780607/01c33922-c23b-4abd-bab7-d7a3456fef46)
 
 ## Modelo de domínio GameList
 ![gamelist-model](https://github.com/matheusprata/GameList/assets/103780607/575d8ef8-c8c3-47ac-a361-b144a4cff8ac)
