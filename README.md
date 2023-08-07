@@ -24,19 +24,26 @@ https://gamelist-production-6531.up.railway.app
 ## Postman acessando cloud e realizando consulta ao banco e alteração de posição do game
 
 ***Lista dos jogos cadastrados no sistema***
-![get all gameList (1)](https://github.com/matheusprata/GameList/assets/103780607/d8a1e602-cceb-4870-97f6-9bfcb152c4dd)
-![get all gameList (2)](https://github.com/matheusprata/GameList/assets/103780607/d80deb0b-d574-4f3e-83e5-70cfbbcc4360)
+![get all gamelist (2)](https://github.com/matheusprata/GameList/assets/103780607/705dfb60-1c69-4a7c-8f2f-f5fa431d140c)
+![get all gamelist (1)](https://github.com/matheusprata/GameList/assets/103780607/28061331-ad7f-4d7c-a38e-6c832a78c722)
+
+***Informação completa do jogo, busca por ID***
+![get by id, full description -1](https://github.com/matheusprata/GameList/assets/103780607/c6fbe0e6-f297-43ca-834e-2de2f13564a9)
 
 ***Lista de categorias cadastradas no sistema***
 ![Lista de categoria dos games](https://github.com/matheusprata/GameList/assets/103780607/0a0b89f3-fc6a-4207-9fe8-a277c6f36768)
 
-***Lista dos games organizados por categoria no sistema***
-![get gamelist por categoria (2)](https://github.com/matheusprata/GameList/assets/103780607/6ea794f2-dbb0-4bbb-8769-af82dfb70ba3)
-![get gamelist por categoria (1)](https://github.com/matheusprata/GameList/assets/103780607/f4d6fce9-46c8-4613-aace-a21cc2536469)
+***Lista dos games organizados por ID da categoria no sistema***
 
-***Alteração da posição na lista dos games, ordenando o game na posição 3 para a posição 1. Essas posições iniciam em 0 até 4, separando a categoria em 5 posições***
-![post para alterar game 3 para posicao 1](https://github.com/matheusprata/GameList/assets/103780607/84852cec-a3bb-4f34-ae90-39ee6e6f5df4)
-![get gamelist por categoria apos post](https://github.com/matheusprata/GameList/assets/103780607/01c33922-c23b-4abd-bab7-d7a3456fef46)
+***Categoria com ID 1***
+![get gamelist feature (3)](https://github.com/matheusprata/GameList/assets/103780607/4c80339e-f314-4102-90c5-1c917c77abaa)
+***Categoria com ID 2***
+![get gamelist feature (2)](https://github.com/matheusprata/GameList/assets/103780607/8ce14fd3-dcda-42a1-bf4d-be26fd696137)
+
+***Alteração da posição na lista dos games, na categoria do jogo, ordenando o game na posição 3 para a posição 1. Essas posições iniciam em 0 até 4, separando a categoria em 5 posições***
+![post to change game 3 to position 1 (2)](https://github.com/matheusprata/GameList/assets/103780607/bdd749bd-e752-4059-a5f7-9da70a2a5e10)
+***Resultado após execução do post***
+![get gamelist by category after post](https://github.com/matheusprata/GameList/assets/103780607/b601f8e7-d60d-4c09-b1f5-0c528cd95be2)
 
 ## Modelo de domínio GameList
 ![gamelist-model](https://github.com/matheusprata/GameList/assets/103780607/575d8ef8-c8c3-47ac-a361-b144a4cff8ac)
